@@ -9,8 +9,8 @@ import java.util.Date;
 @Component
 public class JwtGenerator {
 
-    private String secretKey = "mySecretKey";  // use strong key in real projects
-    private int jwtExpirationMs = 3600000;     // 1 hour
+    private String secretKey = "mySecretKey";  
+    private int jwtExpirationMs = 3600000;     
 
     public String generateToken(String username) {
         return Jwts.builder()
