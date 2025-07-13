@@ -13,7 +13,6 @@ public class AuthController {
     @Autowired
     private JwtGenerator jwtgenerator;
 
-    // In real apps, you should validate from database
     private final String hardCodedUsername = "Arghya";
     private final String hardCodedPassword = "MeowMeow1000";
 
